@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OpenSpec Project",
+  "type": "object",
+  "required": ["schemaVersion", "objectType", "projectKey", "displayName", "environment", "standards", "repositories"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "objectType": {"const": "project"},
+    "projectKey": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
+    "environment": {"enum": ["cn", "intl", "shared"]},
+    "repositories": {"type": "array"}
+  }
+}

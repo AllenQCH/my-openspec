@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OpenSpec Investigation",
+  "type": "object",
+  "required": ["schemaVersion", "objectType", "investigationId", "title", "environment", "status", "result"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "objectType": {"const": "investigation"},
+    "status": {"enum": ["new", "analyzing", "resolved", "promoted", "blocked", "archived"]}
+  }
+}

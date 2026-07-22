@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OpenSpec Initiative Project Binding",
+  "type": "object",
+  "required": ["schemaVersion", "objectType", "initiativeKey", "projectKey", "status", "serviceBindings"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "objectType": {"const": "initiative_project_binding"},
+    "serviceBindings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["serviceKey", "repoUrl", "openSpecPath", "branch", "status"]
+      }
+    }
+  }
+}

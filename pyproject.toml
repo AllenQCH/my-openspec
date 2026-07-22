@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "personal-openspec"
+version = "1.0.0"
+description = "Project-scoped OpenSpec coordination and immutable archive tooling"
+requires-python = ">=3.11"
+dependencies = ["PyYAML>=6.0,<7"]
+
+[project.scripts]
+openspec = "openspec_cli.cli:main"
+
+[tool.setuptools]
+packages = ["openspec_cli"]
