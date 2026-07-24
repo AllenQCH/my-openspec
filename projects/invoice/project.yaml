@@ -1,0 +1,11 @@
+schemaVersion: 1
+objectType: project
+projectKey: invoice
+displayName: 国内发票
+environment: cn
+status: active
+standards:
+  path: projects/invoice/standards
+  version: 1
+repositories: []
+createdAt: '2026-07-24T11:09:33+08:00'

@@ -1,0 +1,59 @@
+schemaVersion: 1
+objectType: initiative_project_binding
+initiativeRef: initiatives/_shared/p35_16895-【设备分期】订货通支持分期订单、首款支付、还款计划等
+initiativeKey: p35_16895-【设备分期】订货通支持分期订单、首款支付、还款计划等
+projectKey: invoice
+status: validated
+standardsRef: projects/invoice/standards
+serviceBindings:
+- serviceKey: cn:hsp-invoice
+  repoUrl: git@git.heytea.com:service/scm/bfc/hsp-invoice.git
+  openSpecPath: openspec/p35_16895-【设备分期】订货通支持分期订单、首款支付、还款计划等.md
+  branch: feature/1.0.1
+  commitSha: 0eee4f7bd5dcdcc60098c048cc3d3978cf3ed334
+  status: validated
+  snapshotSha256: null
+- serviceKey: cn:center-hsp-invoice
+  repoUrl: git@git.heytea.com:service/scm/bfc/center-hsp-invoice.git
+  openSpecPath: openspec/p35_16895-【设备分期】订货通支持分期订单、首款支付、还款计划等.md
+  branch: feature/p35_16895-【设备分期】订货通支持分期订单、首款支付、还款计划等
+  commitSha: 0dd2a64f0c8934c4bb43df6777086ff0116a6c30
+  status: validated
+  snapshotSha256: null
+- serviceKey: cn:manager-hsp-invoice-receiver
+  repoUrl: git@git.heytea.com:service/scm/bfc/manager-hsp-invoice-receiver.git
+  openSpecPath: openspec/p35_16895-【设备分期】订货通支持分期订单、首款支付、还款计划等.md
+  branch: feature/p35_16895-【设备分期】订货通支持分期订单、首款支付、还款计划等
+  commitSha: 1e4cf8db6b7adfb032e87f7508d24f21a8cf2472
+  status: validated
+  snapshotSha256: null
+- serviceKey: cn:manager-hsp-invoice
+  repoUrl: git@git.heytea.com:service/scm/bfc/manager-hsp-invoice.git
+  openSpecPath: openspec/p35_16895-【设备分期】订货通支持分期订单、首款支付、还款计划等.md
+  branch: feature/p35_16895-【设备分期】订货通支持分期订单、首款支付、还款计划等
+  commitSha: 651b095e7623148c4c95fc7cc4dbf0b8e3f65c91
+  status: validated
+  snapshotSha256: null
+- serviceKey: cn:service-hsp-invoice-backend
+  repoUrl: git@git.heytea.com:service/scm/bfc/service-hsp-invoice-backend.git
+  openSpecPath: openspec/p35_16895-【设备分期】订货通支持分期订单、首款支付、还款计划等.md
+  branch: feature/p35_16895-【设备分期】订货通支持分期订单、首款支付、还款计划等
+  commitSha: 439d5f5f08648efaf72504d97e92f610ddce2874
+  status: validated
+  snapshotSha256: null
+- serviceKey: cn:job-hsp-invoice
+  repoUrl: git@git.heytea.com:service/scm/bfc/job-hsp-invoice.git
+  openSpecPath: openspec/p35_16895-【设备分期】订货通支持分期订单、首款支付、还款计划等.md
+  branch: feature/p35_16895-【设备分期】订货通支持分期订单、首款支付、还款计划等
+  commitSha: 3016ad9ee64c67feaca4e0cc298b1fba31ab441a
+  status: validated
+  snapshotSha256: null
+testEvidence:
+- cn:hsp-invoice:openspec/p35_16895-【设备分期】订货通支持分期订单、首款支付、还款计划等.md
+- cn:center-hsp-invoice:openspec/p35_16895-【设备分期】订货通支持分期订单、首款支付、还款计划等.md
+- cn:manager-hsp-invoice-receiver:openspec/p35_16895-【设备分期】订货通支持分期订单、首款支付、还款计划等.md
+- cn:manager-hsp-invoice:openspec/p35_16895-【设备分期】订货通支持分期订单、首款支付、还款计划等.md
+- cn:service-hsp-invoice-backend:openspec/p35_16895-【设备分期】订货通支持分期订单、首款支付、还款计划等.md
+- cn:job-hsp-invoice:openspec/p35_16895-【设备分期】订货通支持分期订单、首款支付、还款计划等.md
+deliveryEvidence: []
+updatedAt: '2026-07-24T15:35:45+08:00'

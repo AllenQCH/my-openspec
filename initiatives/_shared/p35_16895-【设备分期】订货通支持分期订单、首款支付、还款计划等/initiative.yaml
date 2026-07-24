@@ -1,0 +1,14 @@
+schemaVersion: 1
+objectType: initiative
+initiativeKey: p35_16895-【设备分期】订货通支持分期订单、首款支付、还款计划等
+demandId: p35_16895
+demandTitle: 【设备分期】订货通支持分期订单、首款支付、还款计划等
+environment: cn
+status: active
+participatingProjects:
+- invoice
+projectDependencies: []
+sourceInvestigations: []
+createdAt: '2026-07-24T11:09:33+08:00'
+updatedAt: '2026-07-24T11:09:34+08:00'
+lastArchivedRevision: null

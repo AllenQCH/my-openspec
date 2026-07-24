@@ -1,0 +1,5 @@
+schemaVersion: 1
+initiativeKey: p35_16895-【设备分期】订货通支持分期订单、首款支付、还款计划等
+projects:
+- invoice
+dependencies: []
