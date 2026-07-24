@@ -73,3 +73,8 @@ bin/openspec new-investigation '示例接口异常' shared --project project-a
 python3 -m unittest discover -s tests -v
 bin/openspec validate-workspace
 ```
+
+## 迁移仓库
+
+重命名或移动中央仓库前，先完整阅读 [`move-guidence.md`](move-guidence.md)。该指南包含
+Multi-Agent 引用更新、Git 状态保护、跨磁盘迁移和迁移后验证步骤。

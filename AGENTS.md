@@ -24,3 +24,9 @@
 - 运行 `python3 -m unittest discover -s tests -v`。
 - 运行 `bin/openspec validate-workspace`。
 - 未经明确授权，不 commit、push 或修改外部系统。
+
+## Relocation
+
+- 重命名或移动本仓库前，必须完整读取根目录 `move-guidence.md`。
+- 迁移时保留 Git 状态、未跟踪文件、权限和远端配置，并同步 Multi-Agent 活跃引用。
+- 只有 Agent catalog、OpenSpec bridge、workspace 和单元测试全部通过，才可报告迁移完成。
